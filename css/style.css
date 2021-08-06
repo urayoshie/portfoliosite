@@ -1,0 +1,82 @@
+@import url(sanitize.css);
+
+body {
+  background-color: #444444;
+  width: 100px;
+}
+
+.my_name {
+  color: #000;
+  position:absolute;
+  width:200px;
+  height:120px;
+  left: 80px;
+  top: 50%;
+  margin-left: 0;
+  margin-top: -80px;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration:none;
+  color: #000;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.navi {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-left: 0;
+  width: 300px;
+  position:absolute;
+  left: 70px;
+  top: 80%;
+  margin-left: 0;
+}
+
+.navi li {
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+#nav li .link {
+  color: #000;
+}
+
+#nav li .link:hover{
+  color: #AAAAAA;
+}
+
+.twitter {
+  width: 20px;
+}
+
+.twitter:hover {
+  -webkit-animation: zoom 0.3s;
+  animation: zoom 0.3s;
+}
+
+@-webkit-keyframes zoom {
+  50% {
+    -webkit-transform: scale(1.2);
+  }
+}
+
+@keyframes zoom {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .my_name {
+  left: 30px;
+}
+
+.navi {
+  left: 20px;
+}
+}

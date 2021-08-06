@@ -1,0 +1,267 @@
+@import url(sanitize.css);
+
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+ 
+* {
+	box-sizing:border-box;
+}
+ 
+.split-box{
+	position:absolute;
+	width:50%;
+	height:100%;
+	padding:1em;
+}
+ 
+.left-box {
+	background-color: #444444;
+	color:#C9C9C9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+ 
+.right-box {
+	right:0;
+	overflow-y:scroll;
+	background:#ffffff;
+}
+ 
+.left-box a{
+	color:#ffffff;
+	display:block;
+}
+
+.yonly {
+  width: 450px;
+}
+
+.work_1 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.work_1_photp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yonly_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yonly_description {
+  width: 450px;
+}
+
+.ushibudou {
+  width: 450px;
+}
+.work_2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+
+.work_2_photp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ushibudou_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ushibudou_description {
+  width: 450px;
+}
+
+.sixth_sense {
+  width: 350px;
+}
+
+.work_3 {
+  padding-top: 200px;
+  padding-bottom: 0;
+}
+
+
+.work_3_photp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixth_sense_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixth_sense_description {
+  width: 350px;
+}
+
+/* description */
+
+a {
+  text-decoration:none;
+}
+
+.yonly_title {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #444444;
+}
+
+.yonly_details {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #AAAAAA;
+}
+
+.yonly_link {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+
+.yonly_link:hover{
+  color: #AAAAAA;
+}
+
+.ushibudou_title {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #444444;
+}
+
+.ushibudou_details {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #AAAAAA;
+}
+
+.ushibudou_reservation {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+
+.ushibudou_reservation:hover{
+  color: #AAAAAA;
+}
+
+.ushibudou_front {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+
+.ushibudou_front:hover{
+  color: #AAAAAA;
+}
+
+.sixth_sense_title {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #444444;
+}
+
+.sixth_sense_details {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #AAAAAA;
+}
+
+.sixth_sense_link {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+
+.sixth_sense_link:hover{
+  color: #AAAAAA;
+}
+
+.copywright {
+  color: #444444;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  writing-mode: vertical-rl;
+}
+
+@media screen and (max-width:1024px) { 
+	.split-box {
+		position:relative;
+		width:100%;
+		height:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+	}
+
+.work_1 {
+  padding-top: 0;
+}
+}
+
+@media screen and (max-width:414px) {
+.yonly {
+  width: 350px;
+}
+
+.yonly_description {
+  width: 350px;
+  font-size: 15px;
+}
+
+.ushibudou {
+  width: 350px;
+}
+
+.ushibudou_description {
+  width: 350px;
+  font-size: 15px;
+}
+
+.work_3 {
+  padding-bottom: 70px;
+}
+
+.sixth_sense_description {
+  font-size: 15px;
+}
+
+}
+
+@media screen and (max-width:320px) {
+
+.yonly {
+  width: 300px;
+}
+
+.yonly_description {
+  width: 300px;
+}
+
+.ushibudou {
+  width: 300px;
+}
+
+.ushibudou_description {
+  width: 300px;
+}
+
+.sixth_sense {
+  width: 300px;
+}
+
+.sixth_sense_description {
+  width: 300px;
+}
+
+}
